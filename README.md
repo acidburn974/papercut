@@ -11,6 +11,8 @@ Almost all commands working except feeding from other servers. This script was n
 docker-compose run -p 119:119 papercut bash
 ```
 
+Prefer using the git repository with the docker compose and all needed directories : [https://github.com/acidburn974/papercut-container](https://github.com/acidburn974/papercut-container)
+
 ## References
 
 https://github.com/jpm/papercut
