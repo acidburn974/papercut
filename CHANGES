@@ -1,0 +1,31 @@
+0.11.0:
+
+  Forked from https://github.com/jpm/papercut (d2552cdeb857270d888a4c1e1014b837b4b11b61 / 0.9.13)
+
+	Major changes:
+
+	* Restructured code tree to be suitable for setuptools packaging
+	* Setuptools packaging (added setup.py)
+	* Rewrote settings.py to draw its configuration from one or more YAML based
+		configuration files and handle command line options
+	* Added papercut_config command
+
+	Minor changes:
+
+	* Updated settings handling in all files that use it
+	* Fixed encoding for forwarding_proxy.py.
+	* Removed unneccessary shebangs.
+	* Removed cache and logs directories.
+	* Removed .cvsignore files.
+	* Added .gitignore for package build artifacts.
+	* Fixed windows style line breaks (CRLF) and non-unicode characters in various
+		files
+	* Robustified mbox path concatenation.
+	* Added shell environment interpolation to configuration settings where it
+		makes sense.
+	* Added example configuration files.
+	* Updated documentation and copyright information where applicable
+	* Added change log
+	* Removed p2p storage plugin (unfinished)
+	* Removed CVS comments from files
+  * Made CHANGES the authoritative source for package version
